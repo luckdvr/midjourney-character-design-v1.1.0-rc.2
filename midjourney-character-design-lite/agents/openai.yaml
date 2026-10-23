@@ -1,0 +1,4 @@
+interface:
+  display_name: "角色设计体验版"
+  short_description: "用中文从零设计单个人类角色，不限画风，支持简单修改并输出完整全身提示词"
+  default_prompt: "使用 $midjourney-character-design-lite，按我的中文需求设计一个人物，并给我完整的英文 MJ 提示词。"

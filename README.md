@@ -1,13 +1,43 @@
-# 角色设计体验版 · Lite 0.1.0
+# 角色设计体验版 · 0.1.0
 
-用中文从零设计一个人物，输出完整的英文 Midjourney 提示词。CGI、二维动画、水墨插画等画风由你选择，支持简单修改。
+用一句中文，从零设计一个人物。画风由你决定，输出一条完整的英文 Midjourney 提示词。
 
-- **[进入体验版分支](https://github.com/luckdvr/midjourney-character-design-v1.1.0-rc.2/tree/codex/character-design-lite)**
-- **[下载体验版 ZIP](https://github.com/luckdvr/midjourney-character-design-v1.1.0-rc.2/archive/refs/heads/codex%2Fcharacter-design-lite.zip)**
-- **[查看 Skill 文件](https://github.com/luckdvr/midjourney-character-design-v1.1.0-rc.2/tree/codex/character-design-lite/midjourney-character-design-lite)**
+## 使用
 
-体验版支持单个人类角色、完整全身设计和简单修改。不包含参考图重设计、复杂盔甲、非人结构、多视图或高级 MJ 参数流程。
+将 `midjourney-character-design-lite` 文件夹作为 Skill 安装到你使用的工具中。文件夹内应直接包含 `SKILL.md`；不要将完整版与体验版目录合并。
 
-仓库名称沿用 RC2 名称；这里公开的是独立体验版，完整版资料未上传。默认分支仅作为入口，体验版文件位于 `codex/character-design-lite` 分支。
+在支持点名 Skill 的对话里发送：
 
-安装时使用压缩包内的 `midjourney-character-design-lite` 文件夹，使用说明见体验版分支 README。
+> 使用 $midjourney-character-design-lite：设计一个阴柔俊美的成年江湖公子，水墨淡彩，衣服有个性，完整全身。
+
+也可以描述仙侠女主、都市侦探、科幻工程师等人类角色，并说明希望采用 CGI、二维动画、国风插画或写实画风。三条完整示例见 [examples.md](midjourney-character-design-lite/references/examples.md)。
+
+收到提示词后，在 Midjourney 里选择你要使用的模型，再粘贴提示词。此包默认做设计与提示词，不自动调用生图服务。CGI 只是示例画风之一。
+
+## 可以继续这样改
+
+- 保留长相和服装，换成二维动画。
+- 衣服轮廓再有设计感一点，装饰集中到领口和腰部。
+- 金线不要了，金耳饰保留。
+- 其他地方不动，脸和衣服正面亮一些。
+
+没有次数限制。它会沿用上一轮已接受的文字设计，但文字描述不能保证不同图片中的脸完全一致。
+
+## 体验版范围
+
+| 保留 | 本包未提供专门流程 |
+|---|---|
+| 中文需求、从零设计单个人类角色 | 按参考图还原长相、特征转移与重设计 |
+| 不限画风，单人完整全身提示词 | 复杂盔甲、非人结构 |
+| 基本比例、服装结构、材质和持物检查 | 多视图、表情表、多人排版 |
+| 简单修改和完整提示词重写 | 多图一致性流程、高级 MJ 参考与参数排查 |
+
+本包不设“付费解锁”指令，也不把文字规则当作技术加密。它与完整版的区别在于提供的工作流程和资料范围。
+
+## 本次检查
+
+已检查安装结构、包内链接、原版文件哈希和七个文字用例。文字用例由本次同一助手试跑并复核，不代表独立模型评测；未调用 Midjourney 或生成图片。
+
+## 下载
+
+[下载本分支 ZIP](https://github.com/luckdvr/midjourney-character-design-v1.1.0-rc.2/archive/refs/heads/codex%2Fcharacter-design-lite.zip)。安装时使用其中的 `midjourney-character-design-lite` 文件夹。
